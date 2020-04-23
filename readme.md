@@ -1,4 +1,4 @@
-# PHP Simple Text Analysis
+# PHP 簡單的文本處理
 題目: 使用 PHP 找出 阿Q正傳 中出現最多次的 二字詞、三字詞、四字詞。
 
 採用 PHP multiple threads 方式 (使用 pcntl_fork( )，只在 Unix-like 的作業系統有支援)
