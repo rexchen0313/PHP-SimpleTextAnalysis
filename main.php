@@ -4,7 +4,7 @@ require_once "WordCounter.php";
 require_once "MultipleThreads.php";
 
 if (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') {
-    die("此程式只支援在 Unix-like 的作業系統");
+    die("此程式只支援在 Unix-like 的作業系統上執行");
   } else {
     $multipleThreads = new MultipleThreads();
     $WordCounter = new WordCounter();
